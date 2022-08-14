@@ -1,9 +1,10 @@
+import { Routes, Route } from "react-router-dom";
 import './App.css';
 
 export default function App() {
-  return (
-    <div>
-      hi
-    </div>
-  );
+     return (
+          <Routes>
+               {/*<Route path="/" element={<Mainpage />} />*/}   
+          </Routes>
+     );
 }
